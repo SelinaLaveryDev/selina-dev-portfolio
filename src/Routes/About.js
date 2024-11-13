@@ -5,7 +5,6 @@ import NavBar from '../Components/NavBar';
 export default function About() {
   return(
     <Container fluid>
-      <NavBar />
       <div className='app-container'>
         <p>About Page</p>
         <p>

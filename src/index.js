@@ -9,17 +9,18 @@ import './index.css';
 import App from './App';
 import ErrorPage from './Components/ErrorPage';
 import About from './Routes/About';
+import Home from './Routes/Home';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: "/about",
-    element: <About />
+    errorElement: <ErrorPage />,
+    children: [
+      { path: "/", element: <Home /> },      // Home route
+      { path: "about", element: <About /> },  // About route
+    ],
   }
 ]);
 
