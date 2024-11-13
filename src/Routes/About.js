@@ -1,10 +1,8 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
+import NavBar from '../Components/NavBar';
 
-import './App.css';
-import NavBar from './Components/NavBar';
-
-export default function App() {
+export default function About() {
   return(
     <Container fluid>
       <NavBar />
