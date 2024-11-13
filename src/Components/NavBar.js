@@ -8,21 +8,21 @@ export default function NavBar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">SelinaLaveryDev</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <Nav.Link href="#link">About</Nav.Link>
+            <NavDropdown title="Kionnali Projects" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Kionnali App Prototype</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Story Builder
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">React Native App</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Kionnali Pre-Order Website
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
