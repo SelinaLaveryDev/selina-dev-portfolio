@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-function Prof4Modal (props) {
+function EduModal2 (props) {
   return (
     <Modal
       {...props}
@@ -10,26 +10,28 @@ function Prof4Modal (props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Regional Trainer
+      <Modal.Title id="contained-modal-title-vcenter">
+          Software Engineering Immersive
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Lloyds Banking Group, Glasgow</h4>
+        <h4>General Assembly (London, Remote)</h4>
         <p>
-          Provided training during the integration of Bank of Scotland and
-          Lloyds TSB. Key responsibilities:
+          Completed a 12-week immersive programme that covered the fundamentals
+          of programming and computer science concepts. Key learning included:
         </p>
         <ul>
           <li>
-            Delivered training on new systems, products, and sales processes.
+            Developing full web applications using programming languages such as
+            JavaScript, React, Ruby on Rails, and the MERN stack.
           </li>
           <li>
-            Facilitated a six-week sellers course including role-play and
-            assessments.
+            Completed four projects applying real-world programming
+            methodologies.
           </li>
           <li>
-            Supported staff in adapting to changes in business workflows.
+            Weekly assignments, daily stand-ups, and pair programming to foster
+            collaboration and accountability.
           </li>
         </ul>
       </Modal.Body>      <Modal.Footer>
@@ -39,4 +41,4 @@ function Prof4Modal (props) {
   );
 }
 
-export default Prof4Modal;
+export default EduModal2;

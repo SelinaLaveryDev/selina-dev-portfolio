@@ -9,6 +9,8 @@ import LearnMore1 from '../Components/LearnMore1';
 import LearnMore2 from '../Components/LearnMore2';
 import LearnMore3 from '../Components/LearnMore3';
 import LearnMore4 from '../Components/LearnMore4';
+import LearnMore5 from '../Components/LearnMore5';
+import LearnMore6 from '../Components/LearnMore6';
 
 
 export default function About() {
@@ -67,7 +69,7 @@ export default function About() {
         <Card.Body>
           <Card.Title>Regional Trainer</Card.Title>
           <Card.Text>
-            Bank of Scotland
+            Lloyds Banking Group
           </Card.Text>
           <LearnMore4/>
         </Card.Body>
@@ -87,7 +89,9 @@ export default function About() {
         <Card.Body>
           <Card.Title>BA(<em>Hons</em>) Marketing & Communications</Card.Title>
           <Card.Text>
-          Glasgow Caledonian University          </Card.Text>
+          Glasgow Caledonian University         
+           </Card.Text>
+           <LearnMore5/>
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">1999 - 2003</small>
@@ -100,6 +104,7 @@ export default function About() {
           <Card.Text>
             General Assembly
           </Card.Text>
+          <LearnMore6/>
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">Dec 2022 - May 2023</small>

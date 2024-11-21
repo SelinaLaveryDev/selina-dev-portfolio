@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-function Prof4Modal (props) {
+function EduModal1 (props) {
   return (
     <Modal
       {...props}
@@ -10,28 +10,19 @@ function Prof4Modal (props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Regional Trainer
+      <Modal.Title id="contained-modal-title-vcenter">
+          Education
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Lloyds Banking Group, Glasgow</h4>
+        <h4>BA (Hons) Marketing & Communication</h4>
         <p>
-          Provided training during the integration of Bank of Scotland and
-          Lloyds TSB. Key responsibilities:
+          <strong>Institution:</strong> Glasgow Caledonian University
         </p>
-        <ul>
-          <li>
-            Delivered training on new systems, products, and sales processes.
-          </li>
-          <li>
-            Facilitated a six-week sellers course including role-play and
-            assessments.
-          </li>
-          <li>
-            Supported staff in adapting to changes in business workflows.
-          </li>
-        </ul>
+        <p>
+          Achieved a Bachelor of Arts with Honours, focusing on marketing,
+          communication strategies, and consumer behaviour.
+        </p>
       </Modal.Body>      <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
@@ -39,4 +30,4 @@ function Prof4Modal (props) {
   );
 }
 
-export default Prof4Modal;
+export default EduModal1;
