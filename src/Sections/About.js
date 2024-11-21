@@ -4,81 +4,105 @@ import './About.css'
 import CardGroup from 'react-bootstrap/CardGroup';
 import experienceIcon from '../assets/experience.png'
 import educationIcon from '../assets/education.png'
+import Badge from 'react-bootstrap/Badge';
+import LearnMore1 from '../Components/LearnMore1';
+import LearnMore2 from '../Components/LearnMore2';
+import LearnMore3 from '../Components/LearnMore3';
+import LearnMore4 from '../Components/LearnMore4';
+
 
 export default function About() {
   return(
     <section id='about'>
      <p className="section__text__p1">Get to know more</p>
      <h1 className='title'>About Me</h1>
+     <h1>
+      <Badge bg="secondary">Professional Experience</Badge>
+     </h1>
         <div className='section-container'>
-        <CardGroup>
+    <CardGroup>
       <Card>
         <Card.Img variant="top" src={experienceIcon} className='icon' />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Software Developer</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            Kionnali Living Systems Ltd
           </Card.Text>
-        </Card.Body>
+          <LearnMore1 />
+          </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Oct 2023 - Present</small>
         </Card.Footer>
       </Card>
       <Card>
         <Card.Img variant="top" src={experienceIcon} className='icon'/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Career Break</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.
+            Raising two children.
           </Card.Text>
+          <LearnMore2/>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">2014 - 2023</small>
+        </Card.Footer>
+      </Card>
+    </CardGroup>
+    <CardGroup>
+      <Card>
+        <Card.Img variant="top" src={experienceIcon } className='icon'/>
+        <Card.Body>
+          <Card.Title>Operational Trainer</Card.Title>
+          <Card.Text>
+            BSKYB
+          </Card.Text>
+          <LearnMore3/>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Nov 2011 - Feb 2014</small>
         </Card.Footer>
       </Card>
       <Card>
         <Card.Img variant="top" src={experienceIcon } className='icon'/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Regional Trainer</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            Bank of Scotland
           </Card.Text>
+          <LearnMore4/>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Oct 2010 - Oct 2011</small>
         </Card.Footer>
       </Card>
     </CardGroup>    
+    <br></br>
+    <h1>
+      <Badge bg="secondary">Education</Badge>
+     </h1>
 
         <CardGroup>
       <Card>
         <Card.Img variant="top" src={educationIcon} className='icon'/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>BA(<em>Hons</em>) Marketing & Communications</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </Card.Text>
+          Glasgow Caledonian University          </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">1999 - 2003</small>
         </Card.Footer>
       </Card>
       <Card>
         <Card.Img variant="top" src={ educationIcon} className='icon' />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Software Engineering Immersive Programme</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.
+            General Assembly
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Dec 2022 - May 2023</small>
         </Card.Footer>
       </Card>
     </CardGroup>          
