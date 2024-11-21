@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import './App.css';
 import Hero from './Sections/Hero';
 import About from './Sections/About';
+import SkillsSection from './Sections/Skills';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <main className="app-main">
         <Hero />
         <About />
+        <SkillsSection />
       </main>
     </Container>
   );
