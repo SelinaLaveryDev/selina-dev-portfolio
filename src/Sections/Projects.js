@@ -1,20 +1,58 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Container } from 'react-bootstrap';
+import '../Sections/About.css'
+import kionnaliAppProt from '../assets/app-prot.png'
 
-function BasicExample() {
+function Projects() {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
+    <Container className="my-5">
+    <section id='about'>
+        <p className="section__text__p1">Browse My Recent</p>
+        <h1 className='title'>Projects</h1>
+            <Card className="text-center shadow-lg" style={{ border: "none", padding: "20px" }}>
+            <Card.Img variant="top" src={kionnaliAppProt} style={{height: '100%'}} />
+            <Card.Body>
+                <Card.Title>Kionnali App Prototype</Card.Title>
+                <Card.Text>
+                An interactive app prototype built using React to demonstrate platform features such as sign-in, dashboard, command centre, and community pages to stakeholders.
+                </Card.Text>
+                <div className='btn-container'>
+                <Button className="btn btn-colour-2" variant="outline-secondary">Github</Button>
+                <Button className="btn btn-colour-1" variant="outline-secondary">View Demo</Button>
+                </div>
+            </Card.Body>
+            </Card>
+            <br></br>
+            <Card className="text-center shadow-lg" style={{ border: "none", padding: "20px" }}>
+            <Card.Img variant="top" src={kionnaliAppProt} style={{height: '100%'}} />
+            <Card.Body>
+                <Card.Title>Kionnali Website</Card.Title>
+                <Card.Text>
+                An interactive app prototype built using React to demonstrate platform features such as sign-in, dashboard, command centre, and community pages to stakeholders.
+                </Card.Text>
+                <div className='btn-container'>
+                <Button className="btn btn-colour-2" variant="outline-secondary">Github</Button>
+                <Button className="btn btn-colour-1" variant="outline-secondary">View Demo</Button>
+                </div>
+            </Card.Body>
+            </Card>
+            <Card className="text-center shadow-lg" style={{ border: "none", padding: "20px" }}>
+            <Card.Img variant="top" src={kionnaliAppProt} style={{height: '100%'}} />
+            <Card.Body>
+                <Card.Title>Kionnali App Prototype</Card.Title>
+                <Card.Text>
+                An interactive app prototype built using React to demonstrate platform features such as sign-in, dashboard, command centre, and community pages to stakeholders.
+                </Card.Text>
+                <div className='btn-container'>
+                <Button className="btn btn-colour-2" variant="outline-secondary">Github</Button>
+                <Button className="btn btn-colour-1" variant="outline-secondary">View Demo</Button>
+                </div>
+            </Card.Body>
+            </Card>
+    </section>
+    </Container>
   );
 }
 
-export default BasicExample;
+export default Projects;

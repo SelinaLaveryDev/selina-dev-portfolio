@@ -32,3 +32,16 @@
     align-self: center;
     margin-top: 1rem;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

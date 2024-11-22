@@ -5,6 +5,7 @@ import './App.css';
 import Hero from './Sections/Hero';
 import About from './Sections/About';
 import SkillsSection from './Sections/Skills';
+import Projects from './Sections/Projects';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Hero />
         <About />
         <SkillsSection />
+        <Projects />
       </main>
     </Container>
   );
