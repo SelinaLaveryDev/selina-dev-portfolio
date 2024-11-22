@@ -23,7 +23,8 @@ function EduModal1 (props) {
           Achieved a Bachelor of Arts with Honours, focusing on marketing,
           communication strategies, and consumer behaviour.
         </p>
-      </Modal.Body>      <Modal.Footer>
+      </Modal.Body>      
+      <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
