@@ -1,56 +1,69 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { Container } from 'react-bootstrap';
 import '../Sections/About.css'
-import kionnaliAppProt from '../assets/app-prot.png'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import appProt from "../assets/app-prot.png"
+import webImg from "../assets/website-img.png"
 
 function Projects() {
+  const projects = [
+    {
+      title: "Kionnali App Prototype",
+      description:
+        "An interactive app prototype built using React to demonstrate platform features.",
+      image: appProt,
+      github: "#",
+      demo: "#",
+    },
+    {
+      title: "LightForm Website",
+      description:
+        "A responsive website developed on Webflow to showcase LightForm's features and facilitate pre-orders.",
+      image: webImg,
+      github: "#",
+      demo: "#",
+    },
+  ];
+
   return (
     <Container className="my-5">
-    <section id='about'>
-        <p className="section__text__p1">Browse My Recent</p>
-        <h1 className='title'>Projects</h1>
-            <Card className="text-center shadow-lg" style={{ border: "none", padding: "20px" }}>
-            <Card.Img variant="top" src={kionnaliAppProt} style={{height: '100%'}} />
-            <Card.Body>
-                <Card.Title>Kionnali App Prototype</Card.Title>
-                <Card.Text>
-                An interactive app prototype built using React to demonstrate platform features such as sign-in, dashboard, command centre, and community pages to stakeholders.
-                </Card.Text>
-                <div className='btn-container'>
-                <Button className="btn btn-colour-2" variant="outline-secondary">Github</Button>
-                <Button className="btn btn-colour-1" variant="outline-secondary">View Demo</Button>
-                </div>
-            </Card.Body>
+      <h2 className="text-center mb-4">Browse My Recent <strong>Projects</strong></h2>
+      <Row className="mt-4">
+        {projects.map((project, index) => (
+          <Col key={index} xs={12} sm={6} md={4} className="mb-4">
+            <Card className="shadow-sm">
+              <div className="ratio ratio-16x9">
+                <Card.Img
+                  variant="top"
+                  src={project.image}
+                    alt={project.title}
+                    style={{
+                    position: "absolute",
+                    top: "0",
+                    left: "0",
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain", // Ensures the full image is visible
+                    background: "#f0f0f0", // Optional: Add a background to handle empty spaces
+                    }}
+
+                />
+              </div>
+              <Card.Body>
+                <Card.Title>{project.title}</Card.Title>
+                <Card.Text>{project.description}</Card.Text>
+                <Button variant="primary" href={project.github} className="me-2">
+                  GitHub
+                </Button>
+                <Button variant="secondary" href={project.demo}>
+                  View Demo
+                </Button>
+              </Card.Body>
             </Card>
-            <br></br>
-            <Card className="text-center shadow-lg" style={{ border: "none", padding: "20px" }}>
-            <Card.Img variant="top" src={kionnaliAppProt} style={{height: '100%'}} />
-            <Card.Body>
-                <Card.Title>Kionnali Website</Card.Title>
-                <Card.Text>
-                An interactive app prototype built using React to demonstrate platform features such as sign-in, dashboard, command centre, and community pages to stakeholders.
-                </Card.Text>
-                <div className='btn-container'>
-                <Button className="btn btn-colour-2" variant="outline-secondary">Github</Button>
-                <Button className="btn btn-colour-1" variant="outline-secondary">View Demo</Button>
-                </div>
-            </Card.Body>
-            </Card>
-            <Card className="text-center shadow-lg" style={{ border: "none", padding: "20px" }}>
-            <Card.Img variant="top" src={kionnaliAppProt} style={{height: '100%'}} />
-            <Card.Body>
-                <Card.Title>Kionnali App Prototype</Card.Title>
-                <Card.Text>
-                An interactive app prototype built using React to demonstrate platform features such as sign-in, dashboard, command centre, and community pages to stakeholders.
-                </Card.Text>
-                <div className='btn-container'>
-                <Button className="btn btn-colour-2" variant="outline-secondary">Github</Button>
-                <Button className="btn btn-colour-1" variant="outline-secondary">View Demo</Button>
-                </div>
-            </Card.Body>
-            </Card>
-    </section>
+          </Col>
+        ))}
+      </Row>
     </Container>
   );
 }
