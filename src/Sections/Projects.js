@@ -28,7 +28,10 @@ function Projects() {
 
   return (
     <Container className="my-5">
-      <h2 className="text-center mb-4">Browse My Recent <strong>Projects</strong></h2>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <p className="section__text__p1">Browse My Recent</p>
+            <h1 className='title'>Projects</h1>
+        </div>
       <Row className="mt-4">
         {projects.map((project, index) => (
           <Col key={index} xs={12} sm={6} md={4} className="mb-4">
@@ -53,12 +56,14 @@ function Projects() {
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
-                <Button variant="primary" href={project.github} className="me-2">
+                <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
+                <Button variant="outline-secondary" href={project.github} className="me-2">
                   GitHub
                 </Button>
                 <Button variant="secondary" href={project.demo}>
                   View Demo
                 </Button>
+                </div>
               </Card.Body>
             </Card>
           </Col>
