@@ -1,0 +1,40 @@
+.contact-section {
+    text-align: center;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+    color: #6c757d; /* Muted grey text */
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-card {
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 50px; /* Fully rounded container */
+    display: flex;
+    gap: 1rem; /* Spacing between items */
+  }
+  
+  .contact-link {
+    font-size: 1rem;
+    color: #212529; /* Default black text */
+  }
+  
+  .contact-link:hover {
+    color: #000; /* Darker black for hover */
+    text-decoration: none;
+  }
+  
+  .contact-card i {
+    color: #6c757d; /* Muted grey icon */
+  }
+  
+  .contact-card i:hover {
+    color: #212529; /* Darker on hover */
+  }
