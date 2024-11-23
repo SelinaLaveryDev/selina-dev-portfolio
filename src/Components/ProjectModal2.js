@@ -34,7 +34,16 @@ function ProjectModal2 (props) {
         <h5>Outcome</h5>
         <p>
           The rebranded LightForm website successfully showcased the company’s refreshed identity and offerings. It provided a user-friendly platform for visitors to learn about LightForm's innovative solutions while maintaining responsiveness and professional design standards. This project also strengthened my skills in handling real-world client requirements and collaborative workflows.
-        </p>        
+        </p>      
+        <h5>Link</h5>
+        <Button
+          variant="secondary"
+          href="https://www.kionnali.com/"
+          target="_blank"
+        >
+          View Website
+        </Button>
+  
 
       </Modal.Body>      
     </Modal>

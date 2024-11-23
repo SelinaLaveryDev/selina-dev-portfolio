@@ -24,7 +24,7 @@ export default function About() {
         <div className='section-container'>
     <CardGroup>
       <Card>
-        <Card.Img variant="top" src={experienceIcon} className='icon' />
+        <Card.Img variant="top" src={educationIcon} className='icon' />
         <Card.Body>
           <Card.Title>Software Developer</Card.Title>
           <Card.Text>
@@ -37,7 +37,7 @@ export default function About() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src={experienceIcon} className='icon'/>
+        <Card.Img variant="top" src={educationIcon} className='icon'/>
         <Card.Body>
           <Card.Title>Career Break</Card.Title>
           <Card.Text>
@@ -52,7 +52,7 @@ export default function About() {
     </CardGroup>
     <CardGroup>
       <Card>
-        <Card.Img variant="top" src={experienceIcon } className='icon'/>
+        <Card.Img variant="top" src={educationIcon } className='icon'/>
         <Card.Body>
           <Card.Title>Operational Trainer</Card.Title>
           <Card.Text>
@@ -65,7 +65,7 @@ export default function About() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src={experienceIcon } className='icon'/>
+        <Card.Img variant="top" src={educationIcon } className='icon'/>
         <Card.Body>
           <Card.Title>Regional Trainer</Card.Title>
           <Card.Text>
@@ -85,7 +85,7 @@ export default function About() {
 
         <CardGroup>
       <Card>
-        <Card.Img variant="top" src={educationIcon} className='icon'/>
+        <Card.Img variant="top" src={experienceIcon} className='icon'/>
         <Card.Body>
           <Card.Title>BA(<em>Hons</em>) Marketing & Communications</Card.Title>
           <Card.Text>
@@ -98,7 +98,7 @@ export default function About() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src={ educationIcon} className='icon' />
+        <Card.Img variant="top" src={ experienceIcon} className='icon' />
         <Card.Body>
           <Card.Title>Software Engineering Immersive Programme</Card.Title>
           <Card.Text>

@@ -45,3 +45,14 @@
   justify-content: center;
   gap: 1rem;
 }
+
+.card-height {
+  min-height: 400px;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: inherit;
+  z-index: 5;
+}

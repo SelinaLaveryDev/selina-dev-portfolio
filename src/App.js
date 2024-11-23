@@ -10,7 +10,7 @@ import Projects from './Sections/Projects';
 export default function App() {
   return (
     <Container fluid>
-      <NavBar />
+      <NavBar className='sticky-nav'/>
       <main className="app-main">
         <Hero />
         <About />

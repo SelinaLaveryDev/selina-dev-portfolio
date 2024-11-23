@@ -74,7 +74,7 @@ function Projects() {
         {projects.map((project, index) => (
           <Col key={index} xs={12} sm={6} md={4} className="mb-4">
             <h1 >{project.category}</h1>
-            <Card className="shadow-sm">
+            <Card className="shadow-sm h-100 card-height">
               <div className="ratio ratio-16x9">
                 <Card.Img
                   variant="top"
@@ -97,14 +97,10 @@ function Projects() {
                 <Card.Text>{project.description}</Card.Text>
                 <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
                 
-                {/* View wbesite / demo button */}
-                <Button variant="outline-secondary" href={project.demo} className="me-2">
-                  {project.button2}
-                </Button>
 
                 {/* View Modal Btn */}
                 <Button 
-                variant="secondary"
+                variant="outline-secondary"
                 onClick={() => setModalShow(project.modal)}
                 >
                   {project.button1}

@@ -6,6 +6,8 @@
     padding: 50px;
     background-color: #f4f6f8; /* Light gray */
     text-align: center;
+    margin-top: 3rem;
+    height: 100vh;
   }
   
   .hero-profile-pic {
