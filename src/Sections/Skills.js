@@ -52,12 +52,11 @@ function SkillsSection() {
   ];
 
   return (
-    <Container className="my-5">
-    <section id='about'>
+    <Container id='skills' className="center my-5">
      <p className="section__text__p1">Explore My</p>
      <h1 className='title'>Skills</h1>
       {skillCategories.map((category, index) => (
-        <div key={index} className="mb-5">
+        <div key={index} className="margin mb-5">
           <h3 className="text-center mb-4">{category.category}</h3>
           <Row>
             {category.skills.map((skill, idx) => (
@@ -82,7 +81,6 @@ function SkillsSection() {
           </Row>
         </div>
       ))}
-      </section>
     </Container>
   );
 }

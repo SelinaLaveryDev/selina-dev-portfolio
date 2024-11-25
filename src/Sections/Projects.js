@@ -62,10 +62,19 @@ function Projects() {
         button2: 'View App'
   
     },
+    {
+      id: 5,
+      title: "IES V0 - Energy Sensor Data Viewer",
+      description: "A React Native app to display real-time sensor data for the Integrated Energy System.",
+      image: appProt, // Replace with the appropriate image for the IES app
+      modal: 'ProjectModal5',
+      button1: 'More Info',
+    },
   ];
 
   return (
     <Container className="my-5">
+        <section id='projects'>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <p className="section__text__p1">Browse My Recent</p>
             <h1 className='title'>Projects</h1>
@@ -124,6 +133,7 @@ function Projects() {
       {modalShow === 'ProjectModal4' && (
         <ProjectModal4 show={true} onHide={() => setModalShow(null)}/>
       )}
+      </section>
     </Container>
   );
 }

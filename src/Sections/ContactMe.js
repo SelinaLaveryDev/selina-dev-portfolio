@@ -4,8 +4,8 @@ import '../Sections/Contact.css'
 
 function ContactMe() {
   return (
-    <Container className="contact-section my-5">
-        <section id="contact">
+    <Container id="contact" className="contact-section my-5">
+        <section >
       <div className="text-center mb-4">
         <p className="section-subtitle">Get in Touch</p>
         <h1 className="section-title">Contact Me</h1>
