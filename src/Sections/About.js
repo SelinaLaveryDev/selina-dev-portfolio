@@ -19,7 +19,7 @@ export default function About() {
      <p className="section__text__p1">Get to know more</p>
      <h1 className='title'>About Me</h1>
      <h1>
-      <Badge bg="secondary">Professional Experience</Badge>
+      <Badge pill bg="light" text="dark">Professional Experience</Badge>
      </h1>
         <div className='section-container'>
     <CardGroup>
@@ -80,7 +80,7 @@ export default function About() {
     </CardGroup>    
     <br></br>
     <h1>
-      <Badge bg="secondary">Education</Badge>
+      <Badge pill bg="light" text="dark">Education</Badge>
      </h1>
 
         <CardGroup>

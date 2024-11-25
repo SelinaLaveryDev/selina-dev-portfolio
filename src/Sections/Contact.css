@@ -1,5 +1,10 @@
 .contact-section {
     text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .section-subtitle {
@@ -15,10 +20,11 @@
   }
   
   .contact-card {
-    background-color: #f8f9fa; /* Light grey background */
-    border-radius: 50px; /* Fully rounded container */
+    background-color: #f8f9fa; 
+    border-radius: 50px; 
     display: flex;
-    gap: 1rem; /* Spacing between items */
+    gap: 1rem; 
+    width: fit-content;
   }
   
   .contact-link {
@@ -37,4 +43,11 @@
   
   .contact-card i:hover {
     color: #212529; /* Darker on hover */
+  }
+
+  .justify-content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
   }

@@ -9,23 +9,15 @@ export default function NavBar() {
     return (
     <Navbar expand="lg" className="bg-body-tertiary sticky-nav">
       <Container>
-        <Navbar.Brand href="#home">SelinaLaveryDev</Navbar.Brand>
+        <Navbar.Brand href="/">SelinaLaveryDev</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Hero</Nav.Link>
-            <Nav.Link href="about">About</Nav.Link>
-            <NavDropdown title="Kionnali Projects" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Kionnali App Prototype</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Story Builder
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">React Native App</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Kionnali Pre-Order Website
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
