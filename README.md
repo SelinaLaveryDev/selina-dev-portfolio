@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## View Live Demo 
+
+View website [here](https://selinalaverydev.github.io/selina-dev-portfolio/).
+
 ## Available Scripts
 
 In the project directory, you can run:
