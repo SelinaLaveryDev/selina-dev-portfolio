@@ -25,7 +25,7 @@ function ContactMe() {
 
             {/* LinkedIn Link */}
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/selina-lavery/"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-link d-flex align-items-center"
