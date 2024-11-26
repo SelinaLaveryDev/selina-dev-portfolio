@@ -18,16 +18,18 @@ export default function Hero() {
         <img src={profilePic} alt='Profile' className='hero-profile-pic' />
       </div>
       <div className="section__text">
-        <p className="section__text__p1">Hello, I'm</p>
-        <h1 className="title">Selina Lavery</h1>
-        <p className="section__text__p2">Junior Software Engineer</p>
-        <p className="profile-description">
-          Proactive and versatile Software Engineer with a background in web development, full-stack mobile applications, and digital communication. 
-        </p>
-        <div className="btn-container">
-          <button className="btn btn-colour-2" onClick={onResumeClick} >Download CV</button>
-          <button className="btn btn-colour-1" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact Info</button>
-        </div>
+      <p className="section__text__p1">Hi, I'm</p>
+<h1 className="title">Selina Lavery</h1>
+<p className="section__text__p2">Web Developer | Front-End Engineer</p>
+<p className="profile-description">
+  I design and develop web and mobile applications with creativity and purpose. From crafting intuitive interfaces to building scalable systems, my work is grounded in a passion for solving real-world problems with code.
+</p>        
+
+<div className="btn-container">
+          <button className="btn btn-colour-2" onClick={onResumeClick} >View My CV</button>
+          <button className="btn btn-colour-1" onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}>
+    Explore My Work
+  </button>        </div>
         <div id="socials-container">
           <img src={linkedin} alt="LinkedIn profile" className="icon" onClick={() => window.location.href='https://linkedin.com/in/selina-lavery'} />
           <img src={github} alt="GitHub profile" className="icon" onClick={() => window.location.href='https://github.com/SelinaKionnali'} />

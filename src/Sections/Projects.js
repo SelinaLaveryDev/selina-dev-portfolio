@@ -7,10 +7,14 @@ import appProt from "../assets/app-prot.png"
 import webImg from "../assets/website-img.png"
 import preOrderImg from '../assets/Full dashboard.png'
 import storyBuilderImg from '../assets/Front of card.jpg'
+import ies from '../assets/iesLoadingScreen.png'
+import swimteamImg from '../assets/swimteamWebsite.png'
 import ProjectModal1 from '../Components/ProjectModal1'
 import ProjectModal2 from '../Components/ProjectModal2'
 import ProjectModal3 from '../Components/ProjectModal3'
 import ProjectModal4 from '../Components/ProjectModal4'
+import ProjectModal5 from '../Components/ProjectModal5'
+import ProjectModal6 from '../Components/ProjectModal6';
 
 
 function Projects() {
@@ -66,8 +70,17 @@ function Projects() {
       id: 5,
       title: "IES V0 - Energy Sensor Data Viewer",
       description: "A React Native app to display real-time sensor data for the Integrated Energy System.",
-      image: appProt, // Replace with the appropriate image for the IES app
+      image: ies,
       modal: 'ProjectModal5',
+      button1: 'More Info',
+    },
+    {
+      id: 6,
+      title: "Swim Team Website",
+      description: "A React-based website built and maintained for the local swim team.",
+      image: swimteamImg, 
+      modal: 'ProjectModal6',
+      demo: "https://www.stonehavenasc.co.uk/", 
       button1: 'More Info',
     },
   ];
@@ -132,6 +145,12 @@ function Projects() {
       )}
       {modalShow === 'ProjectModal4' && (
         <ProjectModal4 show={true} onHide={() => setModalShow(null)}/>
+      )}
+      {modalShow === 'ProjectModal5' && (
+        <ProjectModal5 show={true} onHide={() => setModalShow(null)} />
+      )}
+      {modalShow === 'ProjectModal6' && (
+        <ProjectModal6 show={true} onHide={() => setModalShow(null)} />
       )}
       </section>
     </Container>
