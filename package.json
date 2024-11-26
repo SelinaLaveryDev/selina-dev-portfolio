@@ -1,5 +1,6 @@
 {
   "name": "selina-dev-portfolio",
+  "homepage": "https://SelinaLaveryDev.github.io/selina-dev-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
