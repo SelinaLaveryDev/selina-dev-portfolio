@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/selina-dev-portfolio/static/css/main.a6f429c1.css",
-    "main.js": "/selina-dev-portfolio/static/js/main.721c4f17.js",
+    "main.js": "/selina-dev-portfolio/static/js/main.83d3fc2a.js",
     "static/js/453.4d35a030.chunk.js": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js",
     "static/media/Full dashboard.png": "/selina-dev-portfolio/static/media/Full dashboard.a9b5fea09e22d2d039df.png",
     "static/media/Front of card.jpg": "/selina-dev-portfolio/static/media/Front of card.d4bcb4753f816ef65fe8.jpg",
@@ -9,16 +9,16 @@
     "static/media/profile-pic.png": "/selina-dev-portfolio/static/media/profile-pic.76a735fe1b546257c7e7.png",
     "static/media/website-img.png": "/selina-dev-portfolio/static/media/website-img.09ad8c430d1116c2632d.png",
     "static/media/swimteamWebsite.png": "/selina-dev-portfolio/static/media/swimteamWebsite.5458210a0559a67dfd8c.png",
-    "static/media/SelinaLavery_CV_26.11.24.pdf": "/selina-dev-portfolio/static/media/SelinaLavery_CV_26.11.24.df757e23e3ee6f079c3f.pdf",
+    "static/media/SelinaLavery__CV_Current.pdf": "/selina-dev-portfolio/static/media/SelinaLavery__CV_Current.1ef72f60a1488dd48275.pdf",
     "static/media/app-prot.png": "/selina-dev-portfolio/static/media/app-prot.58f76b00b74fddc72f00.png",
     "static/media/linkedin.png": "/selina-dev-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/selina-dev-portfolio/index.html",
     "main.a6f429c1.css.map": "/selina-dev-portfolio/static/css/main.a6f429c1.css.map",
-    "main.721c4f17.js.map": "/selina-dev-portfolio/static/js/main.721c4f17.js.map",
+    "main.83d3fc2a.js.map": "/selina-dev-portfolio/static/js/main.83d3fc2a.js.map",
     "453.4d35a030.chunk.js.map": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6f429c1.css",
-    "static/js/main.721c4f17.js"
+    "static/js/main.83d3fc2a.js"
   ]
 }
