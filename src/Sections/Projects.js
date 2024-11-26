@@ -117,7 +117,7 @@ function Projects() {
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
-                <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
+                <div style={{display: 'flex', flexDirection: 'row', alignItems: 'space-between', justifyContent: 'space-between'}}>
                 
 
                 {/* View Modal Btn */}

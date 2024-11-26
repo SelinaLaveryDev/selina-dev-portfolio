@@ -4,7 +4,7 @@ import './Hero.css';
 import profilePic from '../assets/profile-pic.png'
 import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
-import Pdf from '../assets/SelinaLavery_CV_13.11.24.pdf'
+import Pdf from '../assets/SelinaLavery_CV_26.11.24.pdf'
 
 export default function Hero() {
 
