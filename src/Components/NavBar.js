@@ -3,13 +3,23 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../Sections/About.css'
+import logo from '../assets/SLlogo 2.png'
 
 export default function NavBar() {
 
     return (
     <Navbar sticky="top" expand="lg" className="bg-body-tertiary sticky-nav">
       <Container>
-        <Navbar.Brand href="/">SelinaLaveryDev</Navbar.Brand>
+        <Navbar.Brand href="https://selinalaverydev.github.io/selina-dev-portfolio/">
+        <img
+              alt=""
+              src={logo}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+        SelinaLaveryDev
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
