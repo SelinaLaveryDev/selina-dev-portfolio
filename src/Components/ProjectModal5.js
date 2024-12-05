@@ -30,11 +30,11 @@ function ProjectModal5(props) {
 
         <h5>Skills Applied</h5>
         <ul>
-          <li>**Frontend Development**: Built user-friendly interfaces using React Native.</li>
-          <li>**Data Visualisation**: Developed graph components to display sensor data dynamically.</li>
-          <li>**State Management**: Managed data flow and user interactions across pages.</li>
-          <li>**Collaboration**: Worked with co-founders and designers to ensure the app met project goals.</li>
-          <li>**Wireframing**: Updated and refined wireframes to reflect navigation and system changes.</li>
+          <li><strong>Frontend Development</strong>: Built user-friendly interfaces using React Native.</li>
+          <li><strong>Data Visualisation</strong>: Developed graph components to display sensor data dynamically.</li>
+          <li><strong>State Management</strong>: Managed data flow and user interactions across pages.</li>
+          <li><strong>Collaboration</strong>: Worked with co-founders and designers to ensure the app met project goals.</li>
+          <li><strong>Wireframing</strong>: Updated and refined wireframes to reflect navigation and system changes.</li>
         </ul>
 
         <h5>Challenges and Achievements</h5>

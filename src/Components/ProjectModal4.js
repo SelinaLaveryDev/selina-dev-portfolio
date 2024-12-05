@@ -25,10 +25,10 @@ function ProjectModal4(props) {
 
         <h5>Skills Applied</h5>
         <ul>
-          <li>Frontend Development: Created an intuitive SPA interface that updated dynamically based on user interactions.</li>
-          <li>State Management: Managed and tracked multiple states to ensure seamless navigation and data consistency.</li>
-          <li>Backend Development: Built functionality to store user data in the database without requiring authentication.</li>
-          <li>Collaboration: Worked effectively with team members to design the user flow and prioritise a smooth UI experience.</li>
+          <li><strong>Frontend Development</strong>: Created an intuitive SPA interface that updated dynamically based on user interactions.</li>
+          <li><strong>State Management</strong>: Managed and tracked multiple states to ensure seamless navigation and data consistency.</li>
+          <li><strong>Backend Development</strong>: Built functionality to store user data in the database without requiring authentication.</li>
+          <li><strong>Collaboration</strong>: Worked effectively with team members to design the user flow and prioritise a smooth UI experience.</li>
         </ul>
 
         <h5>Outcome</h5>

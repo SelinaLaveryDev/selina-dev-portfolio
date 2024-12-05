@@ -28,9 +28,9 @@ function ProjectModal1(props) {
         <h5>Skills Applied</h5>
         <p>
           <ul>
-            <li>Frontend Development: React and custom CSS for responsive and visually appealing designs.</li>
-            <li>Prototyping: Leveraged static data to simulate user interactions and workflows.</li>
-            <li>Communication: Maintained ongoing collaboration with co-founders to align the prototype with their vision.</li>
+            <li><strong>Frontend Development</strong>: React and custom CSS for responsive and visually appealing designs.</li>
+            <li><strong>Prototyping</strong>: Leveraged static data to simulate user interactions and workflows.</li>
+            <li><strong>Communication</strong>: Maintained ongoing collaboration with co-founders to align the prototype with their vision.</li>
           </ul>
         </p>
 

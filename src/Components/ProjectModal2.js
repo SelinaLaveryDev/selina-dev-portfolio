@@ -25,10 +25,10 @@ function ProjectModal2 (props) {
 
         <h5>Skills Applied</h5>
         <ul>
-          <li>Frontend Development: Leveraged Webflow to build and refine responsive and visually engaging designs.</li>
-          <li>Adaptability: Gained proficiency in Webflow while applying my existing frontend development expertise.</li>
-          <li>Collaboration: Worked iteratively with the co-founders, translating their vision into a functional, branded website.</li>
-          <li>Problem-Solving: Diagnosed and fixed bugs to ensure the website’s reliability and usability.</li>
+          <li><strong>Frontend Development</strong>: Leveraged Webflow to build and refine responsive and visually engaging designs.</li>
+          <li><strong>Adaptability</strong>: Gained proficiency in Webflow while applying my existing frontend development expertise.</li>
+          <li><strong>Collaboration</strong>: Worked iteratively with the co-founders, translating their vision into a functional, branded website.</li>
+          <li><strong>Problem-Solving</strong>: Diagnosed and fixed bugs to ensure the website’s reliability and usability.</li>
         </ul>
 
         <h5>Outcome</h5>

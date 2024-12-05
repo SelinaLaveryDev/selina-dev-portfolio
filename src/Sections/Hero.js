@@ -22,7 +22,7 @@ export default function Hero() {
 <h1 className="title">Selina Lavery</h1>
 <p className="section__text__p2">Web Developer | Front-End Engineer</p>
 <p className="profile-description">
-  I design and develop web and mobile applications with creativity and purpose. From crafting intuitive interfaces to building scalable systems, my work is grounded in a passion for solving real-world problems with code.
+I am a web developer who loves creating intuitive, user-focused web and mobile applications. Whether it’s building responsive designs, streamlining workflows, or diving into problem-solving, I thrive on bringing ideas to life with code. I’m passionate about learning, growing, and collaborating with others to create impactful solutions.
 </p>        
 
 <div className="btn-container">

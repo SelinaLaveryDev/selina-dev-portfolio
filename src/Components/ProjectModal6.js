@@ -20,12 +20,12 @@ function ProjectModal6(props) {
           As a volunteer and committee member for the local swim team, I serve as the <strong>Digital & Communications Officer</strong>. In this role, I built and now maintain the team’s website to provide an engaging platform for swimmers, parents, and committee members.
         </p>
         <p>
-          I designed the website in **Figma**, creating a unique and personal aesthetic that reflects the swim team’s colours and branding. Using **React**, I developed the site with a component-based architecture, ensuring it is easy to update and maintain.
+          I designed the website in Figma, creating a unique and personal aesthetic that reflects the swim team’s colours and branding. Using React, I developed the site with a component-based architecture, ensuring it is easy to update and maintain.
         </p>
 
         <h5>Key Features</h5>
         <ul>
-          <li>A dynamic homepage featuring a **photo slideshow** showcasing the swim team in action.</li>
+          <li>A dynamic homepage featuring a photo slideshow showcasing the swim team in action.</li>
           <li>Clean navigation for users to access information about events, team members, and contact details.</li>
           <li>A responsive layout, ensuring the website looks great on all devices.</li>
         </ul>

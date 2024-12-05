@@ -22,11 +22,11 @@ function ProjectModal3(props) {
 
         <h5>Skills Applied</h5>
         <ul>
-          <li>Full-Stack Development: Built the system with CRUD functionality, enabling users to create, read, update, and delete their data securely.</li>
-          <li>Payment Integration: Integrated Stripe to process payments seamlessly and securely.</li>
-          <li>Authentication: Implemented a magic link system to allow users to log in without passwords.</li>
-          <li>Database Management: Designed and implemented a database to securely store user information.</li>
-          <li>Problem-Solving: Navigated the challenges of learning and applying Bubble.io to deliver the project on time.</li>
+          <li><strong>Full-Stack Development</strong>: Built the system with CRUD functionality, enabling users to create, read, update, and delete their data securely.</li>
+          <li><strong>Payment Integration</strong>: Integrated Stripe to process payments seamlessly and securely.</li>
+          <li><strong>Authentication</strong>: Implemented a magic link system to allow users to log in without passwords.</li>
+          <li><strong>Database Management</strong>: Designed and implemented a database to securely store user information.</li>
+          <li><strong>Problem-Solving</strong>: Navigated the challenges of learning and applying Bubble.io to deliver the project on time.</li>
         </ul>
 
         <h5>Challenges</h5>
