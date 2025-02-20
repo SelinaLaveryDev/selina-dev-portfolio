@@ -81,3 +81,39 @@
   font-size: 14px; /* Smaller label text */
   font-weight: 400;
 }
+
+/* NAVBAR */
+
+.link {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid #000;
+  padding-top: 0.5rem;
+}
+.nav-container {
+  display: relative;
+  padding: 1rem;
+  width: 100%;
+}
+.toggle {
+  display: absolute;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  opacity: 1  ;
+  border: none;
+  margin: 0 auto;
+}

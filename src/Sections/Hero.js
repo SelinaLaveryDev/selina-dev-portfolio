@@ -21,9 +21,15 @@ export default function Hero() {
       <p className="section__text__p1">Hi, I'm</p>
 <h1 className="title">Selina Lavery</h1>
 <p className="section__text__p2">Web Developer | Front-End Engineer</p>
+<<<<<<< HEAD
 <p className="profile-description">
 I am a web developer who loves creating intuitive, user-focused web and mobile applications. Whether it’s building responsive designs, streamlining workflows, or diving into problem-solving, I thrive on bringing ideas to life with code. I’m passionate about learning, growing, and collaborating with others to create impactful solutions.
 </p>        
+=======
+<quote className="profile-description">
+From finance to front-end—turning curiosity into code and ideas into interfaces.
+</quote>        
+>>>>>>> d7f1bc5 (updating navbar)
 
 <div className="btn-container">
           <button className="btn btn-colour-2" onClick={onResumeClick} >View My CV</button>
