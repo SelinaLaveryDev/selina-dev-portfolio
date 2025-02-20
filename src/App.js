@@ -11,6 +11,7 @@ import ContactMe from './Sections/ContactMe';
 export default function App() {
   return (
     <Container fluid>
+      <h1>SelinaLaveryDev</h1>
       <NavBar className='sticky-nav'/>
       <main className="app-main">
         <Hero />
