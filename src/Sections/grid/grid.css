@@ -40,7 +40,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(5px);
+    transform: translateY(6px);
   }
 }
 
@@ -93,7 +93,7 @@
 @media screen and (max-width: 768px) {
   .grid-container {
     flex-direction: column;
-    height: 200vh;
+    height: 150vh;
   }
   .grid-header {
     width: 80vw;
