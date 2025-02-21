@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/selina-dev-portfolio/static/css/main.a12635e4.css",
+    "main.css": "/selina-dev-portfolio/static/css/main.45f4bf84.css",
     "main.js": "/selina-dev-portfolio/static/js/main.00ccac58.js",
     "static/js/453.4d35a030.chunk.js": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js",
     "static/media/Full dashboard.png": "/selina-dev-portfolio/static/media/Full dashboard.a9b5fea09e22d2d039df.png",
@@ -13,12 +13,12 @@
     "static/media/app-prot.png": "/selina-dev-portfolio/static/media/app-prot.58f76b00b74fddc72f00.png",
     "static/media/linkedin.png": "/selina-dev-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/selina-dev-portfolio/index.html",
-    "main.a12635e4.css.map": "/selina-dev-portfolio/static/css/main.a12635e4.css.map",
+    "main.45f4bf84.css.map": "/selina-dev-portfolio/static/css/main.45f4bf84.css.map",
     "main.00ccac58.js.map": "/selina-dev-portfolio/static/js/main.00ccac58.js.map",
     "453.4d35a030.chunk.js.map": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a12635e4.css",
+    "static/css/main.45f4bf84.css",
     "static/js/main.00ccac58.js"
   ]
 }
