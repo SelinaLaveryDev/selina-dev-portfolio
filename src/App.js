@@ -7,17 +7,19 @@ import About from "./Sections/About";
 import SkillsSection from "./Sections/Skills";
 import Projects from "./Sections/Projects";
 import ContactMe from "./Sections/ContactMe";
+import Grid from "./Sections/grid/grid";
 
 export default function App() {
   return (
     <Container fluid className="app-container">
-      <div className="heading-container">
+      <section id="home" className="heading-container">
         <h1 className="heading">SELINA LAVERY</h1>
-      </div>
+      </section>
       <NavBar className="sticky-nav" />
       <main className="app-main">
         <Hero />
         <About />
+        <Grid />
         <SkillsSection />
         <Projects />
         <ContactMe />

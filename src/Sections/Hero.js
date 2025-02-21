@@ -12,7 +12,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="hero-section">
+    <section id="hero" className="hero-section">
       <div className="section__pic-container">
         <img src={profilePic} alt="Profile" className="hero-profile-pic" />
       </div>
@@ -47,7 +47,7 @@ export default function Hero() {
             alt="LinkedIn profile"
             className="icon"
             onClick={() =>
-              (window.location.href = "https://linkedin.com/in/selina-lavery")
+              window.open("https://linkedin.com/in/selina-lavery", "_blank")
             }
           />
           <img
@@ -55,7 +55,17 @@ export default function Hero() {
             alt="GitHub profile"
             className="icon"
             onClick={() =>
-              (window.location.href = "https://github.com/SelinaLaveryDev")
+              window.open("https://github.com/SelinaLaveryDev", "_blank")
+            }
+          />
+          <img
+            src={
+              "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/codepen.png"
+            }
+            alt="Codepen profile"
+            className="icon"
+            onClick={() =>
+              window.open("https://codepen.io/your-work", "_blank")
             }
           />
         </div>

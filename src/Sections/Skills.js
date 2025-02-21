@@ -1,57 +1,72 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import '../Sections/About.css';
+import "../Sections/About.css";
 
 function SkillsSection() {
   const skillCategories = [
     {
       category: "Frontend Development",
       skills: [
-        { name: "HTML", label: "Frequently Used" },
-        { name: "CSS", label: "Frequently Used" },
-        { name: "Bubble.io", label: "Applied in Projects" },
-        { name: "Webflow", label: "Applied in Projects" },
-        { name: "JavaScript", label: "Frequently Used" },
-        { name: "React", label: "Applied in Projects" },
-        { name: "React Native", label: "Recent Project" },
-        { name: "Ruby", label: "Learning" },
+        { name: "HTML", label: "Frequently Used - Visit my CodePen" },
+        { name: "CSS", label: "Frequently Used - Visit my CodePen" },
+        {
+          name: "Bubble.io",
+          label: "Applied in Projects - See Projects section",
+        },
+        {
+          name: "Webflow",
+          label: "Applied in Projects - See Projects section",
+        },
+        {
+          name: "JavaScript",
+          label: "Applied in Projects - See Projects section",
+        },
+        { name: "React", label: "Applied in Projects - See Projects section" },
+        {
+          name: "React Native",
+          label: "Applied in Projects - See Projects section",
+        },
+        { name: "Ruby", label: "Visit GitHub for GA project" },
       ],
     },
     {
       category: "Backend Development",
       skills: [
-        { name: "Node.js", label: "Used in APIs" },
-        { name: "Express", label: "Used in APIs" },
-        { name: "MongoDB", label: "Applied in Projects" },
-        { name: "PostgreSQL", label: "Used in APIs" },
-        { name: "Rails", label: "Learning" },
+        { name: "Node.js", label: "Applied in Projects - Visit my GitHub" },
+        { name: "Express", label: "Applied in Projects - Visit my GitHub" },
+        { name: "MongoDB", label: "Visit GitHub for GA project" },
+        { name: "PostgreSQL", label: "Visit GitHub for GA project" },
+        { name: "Rails", label: "Visit GitHub for GA project" },
       ],
     },
     {
       category: "Design & Prototyping",
       skills: [
-        { name: "Figma", label: "UI Design & Prototypes" },
-        { name: "ERDs", label: "Database Structuring" },
-        { name: "Wireframes", label: "UI Planning" },
-        { name: "Expo", label: "Mobile Deployment" },
-        { name: "Xcode", label: "iOS Development" },
+        { name: "Figma", label: "Used Frequently - see CV and Projects below" },
+        { name: "ERDs", label: "Shown in github Readme's" },
+        { name: "Wireframes", label: "Shown in github Readme's" },
+        { name: "Expo", label: "See mobile app prototype project" },
+        { name: "Xcode", label: "See mobile app prototype project" },
       ],
     },
     {
       category: "Tools & Other Skills",
       skills: [
-        { name: "Git", label: "Version Control" },
-        { name: "RESTful APIs", label: "API Integration" },
-        { name: "Trello", label: "Project Management" },
-        { name: "Mailchimp", label: "Email Campaigns" },
-        { name: "Zapier", label: "Workflow Automation" },
-        { name: "Slack", label: "Team Collaboration" },
+        { name: "Git", label: "Version Control - visit my GitHub" },
+        { name: "RESTful APIs", label: "Visit GitHub for GA projects" },
+        { name: "Trello", label: "Visit GitHub for GA projects" },
+        {
+          name: "Mailchimp",
+          label: "Email Campaigns - see Kionnali work experience",
+        },
+        { name: "Zapier", label: "Forms - see Kionnali work experience" },
+        { name: "Slack", label: "Team Collaboration at Kionnali and GA" },
       ],
     },
   ];
 
   return (
-    <Container id="skills" className=" my-5">
+    <Container id="skill-cards" className=" my-5">
       <div className="center">
         <p className="section__text__p1">Explore My</p>
         <h1 className="title">Skills</h1>
@@ -72,7 +87,9 @@ function SkillsSection() {
                     >
                       ✔️
                     </div>
-                    <Card.Title as="h6" className="mb-1">{skill.name}</Card.Title>
+                    <Card.Title as="h6" className="mb-1">
+                      {skill.name}
+                    </Card.Title>
                     <Card.Text className="text-muted">{skill.label}</Card.Text>
                   </Card.Body>
                 </Card>
