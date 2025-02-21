@@ -16,108 +16,126 @@ export default function Grid() {
       </header>
       <div className="grid">
         <img
+          className="grid-item-0"
           alt="html"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/html.png"
           }
         />
         <img
+          className="grid-item-1"
           alt="css"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/css.png"
           }
         />
         <img
+          className="grid-item-2"
           alt="javascript"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/js.png"
           }
         />
         <img
+          className="grid-item-3"
           alt="react"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/react.png"
           }
         />
         <img
+          className="grid-item-4"
           alt="bootstrap"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/bootstrap.png"
           }
         />
         <img
+          className="grid-item-5"
           alt="vscode"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/vscode.png"
           }
         />
         <img
+          className="grid-item-6"
           alt="node"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/node.png"
           }
         />
         <img
+          className="grid-item-7"
           alt="npm"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/npm.png"
           }
         />
         <img
+          className="grid-item-8"
           alt="github"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/github.png"
           }
         />
         <img
+          className="grid-item-9"
           alt="figma"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/figma.png"
           }
         />
         <img
+          className="grid-item-10"
           alt="ruby"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/ruby.png"
           }
         />
         <img
+          className="grid-item-11"
           alt="rails"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/rails.png"
           }
         />
         <img
+          className="grid-item-12"
           alt="express"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/express.png"
           }
         />
         <img
+          className="grid-item-13"
           alt="aws"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/aws.png"
           }
         />
         <img
+          className="grid-item-14"
           alt="webflow"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/webflow.png"
           }
         />
         <img
+          className="grid-item-15"
           alt="xcode"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/xcode.png"
           }
         />
         <img
+          className="grid-item-16"
           alt="mongodb"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/mongodb.png"
           }
         />
         <img
+          className="grid-item-17"
           alt="postgresql"
           src={
             "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/postgresql.png"

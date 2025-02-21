@@ -28,12 +28,12 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: white;
+  background-color: #f4f6f8;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: white;
+  background-color: #f4f6f8;
 }
 
 .heading-container {
