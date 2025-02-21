@@ -55,7 +55,7 @@ export default function Hero() {
             alt="GitHub profile"
             className="icon"
             onClick={() =>
-              (window.location.href = "https://github.com/SelinaKionnali")
+              (window.location.href = "https://github.com/SelinaLaveryDev")
             }
           />
         </div>

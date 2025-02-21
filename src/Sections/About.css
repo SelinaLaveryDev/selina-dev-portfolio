@@ -90,6 +90,11 @@
   text-decoration: underline;
   text-underline-offset: 0.6rem;
 }
+.active {
+  text-decoration: underline;
+  text-underline-offset: 0.6rem;
+}
+
 .nav-links {
   display: flex;
   gap: 1rem;
