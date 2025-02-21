@@ -33,7 +33,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
   background-color: white;
 }
 
@@ -47,7 +46,7 @@ html {
 }
 .heading {
   font-family: var(--nav-font);
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 300;
   color: rgb(53, 53, 53);
 }
