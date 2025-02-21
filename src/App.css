@@ -2,25 +2,52 @@
 
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap");
 
 :root {
-    --nav-font:  "Raleway Dots", serif;
-  }
+  /* fonts */
+  --nav-font: "Lexend Peta", serif;
+
+  /* colours */
+  /* Primary Color - The main brand color, for buttons, highlights, important elements. */
+  --primary-colour: #2d3142;
+  /* Secondary Color - used for backgrounds, hover effects, or subtle highlights */
+  --secondary-colour: #b0d7ff;
+  /* Accent Color - A contrasting color to draw attention, for call-to-actions (CTA). */
+  --accent-colour: #eae8ff;
+  /* Background Color - The main background of your website */
+  --background-colour: #d8d5db;
+  /* Border/Neutral Color - A subtle color for dividers, borders, card backgrounds */
+  --border-neutral-colour: #adacb5;
+}
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  background-color: white;
 }
 
-p {
-    color: rgb(85, 84, 85);
+.heading-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f6f8;
+  margin: 0;
+  width: 100vw;
+  padding: 2rem;
+}
+.heading {
+  font-family: var(--nav-font);
+  font-size: 5rem;
+  font-weight: 300;
+  color: rgb(53, 53, 53);
 }

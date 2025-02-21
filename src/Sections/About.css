@@ -1,12 +1,12 @@
 #about {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    background-color: #f4f6f8; 
-    text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #f4f6f8;
+  text-align: center;
 }
 
 .center {
@@ -21,27 +21,27 @@
 }
 
 .title {
-    font-size: 2.5rem;
-    margin: 10px;
-  }
+  font-size: 2.5rem;
+  margin: 10px;
+}
 
-  .section__text__p1 {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-  }
+.section__text__p1 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
 
-  .section-container {
-    gap: 20px;
-    height: 80%;
-    flex-direction: row;
+.section-container {
+  gap: 20px;
+  height: 80%;
+  flex-direction: row;
 }
 
 .icon {
-    cursor: pointer;
-    height: 2rem;
-    width: 2rem;
-    align-self: center;
-    margin-top: 1rem;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  align-self: center;
+  margin-top: 1rem;
 }
 
 .row {
@@ -87,9 +87,13 @@
 .link {
   color: #000;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
   transition: color 0.3s;
   text-transform: uppercase;
+}
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.6rem;
 }
 .nav-links {
   display: flex;
@@ -97,7 +101,6 @@
   align-items: center;
   width: 100%;
   justify-content: center;
-  margin-top: 1rem;
   border-bottom: 1px solid #000;
   padding-bottom: 0.5rem;
   border-top: 1px solid #000;
@@ -106,14 +109,21 @@
 .nav-container {
   display: relative;
   padding: 1rem;
-  width: 100%;
+  width: 100vw;
+  background-color: #f4f6f8;
 }
 .toggle {
   display: absolute;
   align-items: center;
   justify-content: center;
   color: #000;
-  opacity: 1  ;
+  opacity: 1;
   border: none;
   margin: 0 auto;
+}
+
+.app-container {
+  margin: 0;
+  width: 100vw;
+  background-color: #f4f6f8;
 }
