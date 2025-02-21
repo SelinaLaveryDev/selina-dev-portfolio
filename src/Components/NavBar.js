@@ -5,12 +5,6 @@ import "../Sections/About.css";
 import React from "react";
 
 export default function NavBar() {
-  const [active, setActive] = React.useState("#home");
-
-  const observer = new IntersectionObserver((section) => {
-    setActive(section[0].target.id);
-  });
-
   return (
     <Navbar sticky="top" expand="lg" className="bg-body-tertiary sticky-nav">
       <Container className="nav-container">

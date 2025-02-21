@@ -66,7 +66,7 @@ function SkillsSection() {
   ];
 
   return (
-    <Container id="skill-cards" className=" my-5">
+    <Container className=" my-5">
       <div className="center">
         <p className="section__text__p1">Explore My</p>
         <h1 className="title">Skills</h1>
