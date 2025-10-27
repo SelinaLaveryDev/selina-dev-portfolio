@@ -4,7 +4,7 @@ import "./Hero.css";
 import profilePic from "../assets/profile-pic.png";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
-import Pdf from "../assets/SelinaLavery__CV_Current.pdf";
+import Pdf from "../assets/Selina_Lavery_CV_27.10.25.pdf";
 
 export default function Hero() {
   const onResumeClick = () => {
@@ -22,8 +22,9 @@ export default function Hero() {
         <p className="section__text__p2">Web Developer | Front-End Engineer</p>
         <div className="profile-description">
           <quote className="profile-description">
-            From finance to front-end—turning curiosity into code and ideas into
-            interfaces.
+            I am a front-end web developer with a strong foundation in HTML,
+            CSS, JavaScript, React, and a background spanning marketing,
+            operational training, and communications.
           </quote>
         </div>
         <div className="btn-container">
