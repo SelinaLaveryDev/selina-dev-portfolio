@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/selina-dev-portfolio/static/css/main.45f4bf84.css",
-    "main.js": "/selina-dev-portfolio/static/js/main.114a5365.js",
+    "main.js": "/selina-dev-portfolio/static/js/main.1628a8e4.js",
     "static/js/453.4d35a030.chunk.js": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js",
     "static/media/Full dashboard.png": "/selina-dev-portfolio/static/media/Full dashboard.a9b5fea09e22d2d039df.png",
     "static/media/Front of card.jpg": "/selina-dev-portfolio/static/media/Front of card.d4bcb4753f816ef65fe8.jpg",
@@ -14,11 +14,11 @@
     "static/media/linkedin.png": "/selina-dev-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/selina-dev-portfolio/index.html",
     "main.45f4bf84.css.map": "/selina-dev-portfolio/static/css/main.45f4bf84.css.map",
-    "main.114a5365.js.map": "/selina-dev-portfolio/static/js/main.114a5365.js.map",
+    "main.1628a8e4.js.map": "/selina-dev-portfolio/static/js/main.1628a8e4.js.map",
     "453.4d35a030.chunk.js.map": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45f4bf84.css",
-    "static/js/main.114a5365.js"
+    "static/js/main.1628a8e4.js"
   ]
 }
