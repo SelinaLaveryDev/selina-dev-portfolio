@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import "./About.css";
 import CardGroup from "react-bootstrap/CardGroup";
@@ -32,7 +31,7 @@ export default function About() {
               <LearnMore1 />
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Oct 2023 - Present</small>
+              <small className="text-muted">Oct 2023 - Dec 2024</small>
             </Card.Footer>
           </Card>
           <Card>

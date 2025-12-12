@@ -1,5 +1,3 @@
-// src/Components/Hero.js
-import React from "react";
 import "./Hero.css";
 import profilePic from "../assets/profile-pic.png";
 import linkedin from "../assets/linkedin.png";
@@ -57,16 +55,6 @@ export default function Hero() {
             className="icon"
             onClick={() =>
               window.open("https://github.com/SelinaLaveryDev", "_blank")
-            }
-          />
-          <img
-            src={
-              "https://sel-dev-bucket.s3.us-east-1.amazonaws.com/portfolio-images/dev-icons/dev_icons/codepen.png"
-            }
-            alt="Codepen profile"
-            className="icon"
-            onClick={() =>
-              window.open("https://codepen.io/your-work", "_blank")
             }
           />
         </div>
