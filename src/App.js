@@ -18,9 +18,7 @@ export default function App() {
       <NavBar className="sticky-nav" />
       <main className="app-main">
         <Hero />
-        <About />
         <Grid />
-        <SkillsSection />
         <Projects />
         <ContactMe />
       </main>

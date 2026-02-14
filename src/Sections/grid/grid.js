@@ -2,17 +2,23 @@ import React from "react";
 import "./grid.css";
 
 export default function Grid() {
+  const skills = [
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind",
+    "Webflow",
+    "Bubble.io",
+  ];
   return (
     <div id="skills" className="grid-container">
       <header className="grid-header">
         <h1>Skills</h1>
-        <p>
-          I have experience with a variety of technologies and tools. Here are a
-          few of them
-        </p>
-        <p>
-          More details below! <i class="fa-solid fa-arrow-down"></i>{" "}
-        </p>
+        <div className="skills-container">
+          {skills.map((skill) => (
+            <span key={skill}>{skill}</span>
+          ))}
+        </div>
       </header>
       <div className="grid">
         <img

@@ -14,9 +14,6 @@ export default function NavBar() {
             <Nav.Link className="link" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link className="link" href="#about">
-              About
-            </Nav.Link>
             <Nav.Link className="link" href="#skills">
               Skills
             </Nav.Link>
