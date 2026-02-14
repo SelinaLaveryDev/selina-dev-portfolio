@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/selina-dev-portfolio/static/css/main.45f4bf84.css",
-    "main.js": "/selina-dev-portfolio/static/js/main.1628a8e4.js",
+    "main.css": "/selina-dev-portfolio/static/css/main.e637564d.css",
+    "main.js": "/selina-dev-portfolio/static/js/main.2d6507dd.js",
     "static/js/453.4d35a030.chunk.js": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js",
     "static/media/Full dashboard.png": "/selina-dev-portfolio/static/media/Full dashboard.a9b5fea09e22d2d039df.png",
     "static/media/Front of card.jpg": "/selina-dev-portfolio/static/media/Front of card.d4bcb4753f816ef65fe8.jpg",
@@ -13,12 +13,12 @@
     "static/media/Selina_Lavery_CV_27.10.25.pdf": "/selina-dev-portfolio/static/media/Selina_Lavery_CV_27.10.25.38ca786c3b048489c230.pdf",
     "static/media/linkedin.png": "/selina-dev-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/selina-dev-portfolio/index.html",
-    "main.45f4bf84.css.map": "/selina-dev-portfolio/static/css/main.45f4bf84.css.map",
-    "main.1628a8e4.js.map": "/selina-dev-portfolio/static/js/main.1628a8e4.js.map",
+    "main.e637564d.css.map": "/selina-dev-portfolio/static/css/main.e637564d.css.map",
+    "main.2d6507dd.js.map": "/selina-dev-portfolio/static/js/main.2d6507dd.js.map",
     "453.4d35a030.chunk.js.map": "/selina-dev-portfolio/static/js/453.4d35a030.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45f4bf84.css",
-    "static/js/main.1628a8e4.js"
+    "static/css/main.e637564d.css",
+    "static/js/main.2d6507dd.js"
   ]
 }
