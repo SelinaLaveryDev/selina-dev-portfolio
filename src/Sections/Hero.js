@@ -2,7 +2,7 @@ import "./Hero.css";
 import profilePic from "../assets/profile-pic.png";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
-import Pdf from "../assets/Selina_Lavery_CV_27.10.25.pdf";
+import Pdf from "../assets/Selina_Lavery_CV_20.02.26.pdf";
 
 export default function Hero() {
   const onResumeClick = () => {
